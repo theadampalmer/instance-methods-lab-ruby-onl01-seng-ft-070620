@@ -1,9 +1,8 @@
-class Dog 
-end
-
-fido = Dog.new
-
-def bark
+class Dog
+  def bark
     puts "Woof!"
+  end
 end
-
+ 
+fido = Dog.new
+fido.bark
